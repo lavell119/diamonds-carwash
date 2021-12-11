@@ -9,12 +9,12 @@
 
 
 button {
-    background: var(--color2);
+    background: var(--color1);
     font-weight: bold;
 }
 
 button:hover {
-    background: var(--color1);
+    background: var(--color2);
     transition-duration: .7s;
 }
 
@@ -174,7 +174,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/banner2.jpg");
+    background-image: url("images/banner-dark70.png");
     background-size: cover;
     color: white;
    
@@ -317,7 +317,7 @@ body {
 
 .section-3 {
     padding: 0px 60px 0px 60px;
-    background-image: url("images/sec3background.jpg");
+    background-image: url("images/sec3-image.png");
     background-size: cover;
     height: 110vh;
     display: flex;
@@ -520,7 +520,7 @@ body {
 .section-5 {
     height: 77vh;
     width: 100%;
-    background-image: url("images/sec5background.png");
+    background-image: url("images/sec5image.png");
     background-size: cover;
     margin-bottom: 240px;
     display: flex;
