@@ -3,18 +3,18 @@
 }
 
 :root {
-    --color1:#0C0C0D;
+    --color1:#222224;
     --color2: black;
 }
 
 
 button {
-    background: var(--color1);
+    background: var(--color2);
     font-weight: bold;
 }
 
 button:hover {
-    background: var(--color2);
+    background: var(--color1);
     transition-duration: .7s;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .header-top {
-    background: var(--color2);
+    background: var(--color1);
     height: 73px;
     width: 100%;
     color: white;
@@ -90,6 +90,8 @@ body {
 .header-middle {
     height: 144px;
     display: flex;
+    background: var(--color2);
+
 
 }
 
@@ -128,7 +130,7 @@ body {
     height: 65px;
     border-top: 1px solid black;
     display: flex;
-    background: var(--color2);
+    background: var(--color1);
     align-items: center;
     padding-left: 40px;
 
@@ -144,7 +146,7 @@ body {
 }
 
 .nav {
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -155,9 +157,9 @@ body {
 
 .appointment {
     height: 100%;
-    width: 220px;
+    width: 140px;
     position: relative;
-    left: 550px;
+    left: 450px;
     color: white;
     display: flex;
     align-items: center;
