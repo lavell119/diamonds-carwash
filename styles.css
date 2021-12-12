@@ -238,7 +238,7 @@ body {
 
 #sec1img {
     height: auto;
-    width: 550px;   
+    width: 450px;   
 }
 
 
@@ -465,7 +465,7 @@ body {
     color: var(--color2); 
     gap: 1px;
     font-weight: bold;
-    height: 70px;
+    height: 90px;
 }
 
 .m-red {
@@ -479,6 +479,10 @@ body {
 .price-number {
     font-size: 52px;
     display: inline-block;    
+}
+
+.starting-at {
+    margin-right: 8px;
 }
 
 .multiple-price {
