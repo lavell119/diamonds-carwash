@@ -451,10 +451,11 @@ body {
 
 }
 
-.dollar-sign {
+.dollarr-sign {
     color: var(--color2);
-    font-size: 17px;
-    
+    font-size: 22px;
+    position: relative;
+    bottom: 11px;
 }
 
 .small-price {
