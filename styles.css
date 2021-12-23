@@ -1,5 +1,10 @@
 * {
     box-sizing: border-box;
+    
+}
+
+body button {
+    cursor: pointer;
 }
 
 :root {
@@ -83,6 +88,7 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    cursor: pointer;
     
     
 }
@@ -155,6 +161,11 @@ body {
     color: white;
 }
 
+.nav span:hover {
+    color: var(--color2);
+    cursor: pointer;
+}
+
 .appointment {
     height: 100%;
     width: 200px;
@@ -167,6 +178,7 @@ body {
     font-size: 14px;
     font-weight: bold;
     background: #4c4d4c;
+    cursor: pointer;
 }
 
 .appointment:hover {
@@ -363,7 +375,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;   
-
+    cursor: pointer;
 }
 
 .section-3-title-right {
@@ -808,6 +820,7 @@ legend {
     width: 60px;
     border-radius: 100%;
     background: var(--color1);
+    cursor: pointer;
 
 }
 
